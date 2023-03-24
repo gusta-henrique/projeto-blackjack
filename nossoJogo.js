@@ -28,8 +28,8 @@
          let pontuacaoComputador = carta1Computador.valor + carta2Computador.valor
          
          //console.log que exibe as pontuações
-         console.log(`usuário - ${carta1Usuario.texto} + ${carta2Usuario.texto} - ${pontuacaoUsuario}`)
-         console.log(`computador - ${carta1Computador.texto} + ${carta2Computador.texto} - ${pontuacaoComputador}`)        
+         console.log(`usuário - ${carta1Usuario.texto} + ${carta2Usuario.texto} - pontuação: ${pontuacaoUsuario}`)
+         console.log(`computador - ${carta1Computador.texto} + ${carta2Computador.texto} - pontuação: ${pontuacaoComputador}`)        
          
          if(pontuacaoUsuario > pontuacaoComputador){
             console.log('o usuário venceu!')
@@ -46,3 +46,4 @@
    
     }
     blackjack()
+
